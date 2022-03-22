@@ -32,7 +32,7 @@ np.fft.fft(data, axis=0)
 ```
 ![multi_thread_fft](https://user-images.githubusercontent.com/20411077/159542223-871f9b60-6cdf-435e-94d7-bdddb7c09c03.png)
 
-### Running time for FFT multi-thread (Lambda memory 10240)
+### Running time for FFT multi-thread (Lambda memory 10240MB)
 ```
 data = [np.random.rand(8192, 2048) for k in range(4)]
 with ThreadPoolExecutor(max_worker=4) as executor:
