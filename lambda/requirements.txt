@@ -1,0 +1,5 @@
+boto3==1.12.17
+s3fs==0.6.0
+simplejson==3.17.2
+pytest-check==1.0.1
+numpy==1.22.1
