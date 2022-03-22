@@ -30,15 +30,13 @@ n = 30 used for testing.
 data = np.random.rand(8192, 8192)
 np.fft.fft(data, axis=0)
 ```
-![234](https://user-images.githubusercontent.com/20411077/159539194-e06dc28a-2ac2-4f44-9532-c1a924f24500.png)
+![multi_thread_fft](https://user-images.githubusercontent.com/20411077/159542223-871f9b60-6cdf-435e-94d7-bdddb7c09c03.png)
 
-### Running time for FFT multi-thread
+### Running time for FFT multi-thread (Lambda memory 10240)
 ```
 data = [np.random.rand(8192, 2048) for k in range(4)]
 with ThreadPoolExecutor(max_worker=4) as executor:
   for x in data:
     executor.submit(np.fft.fft, x, axis=0)
 ```
-![multi_thread_fft](https://user-images.githubusercontent.com/20411077/159542223-871f9b60-6cdf-435e-94d7-bdddb7c09c03.png)
-
-
+![multi_thread_fft_1](https://user-images.githubusercontent.com/20411077/159552054-3b5b84e7-6b35-4c2a-9332-7801f92d5de4.png)
