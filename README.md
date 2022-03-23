@@ -2,7 +2,7 @@
 
 ### Summary
 
-According to [AWS Graviton2](https://aws.amazon.com/blogs/compute/migrating-aws-lambda-functions-to-arm-based-aws-graviton2-processors/) the Arm Graviton provides 34% better price performance than X86. In some sense, it runs faster 34% compared with X86. So I do a small experiment to check this. AWS CDK and CodeBuild with Arm based instance makes it easy to setup. **So the Graviton does run about 30% faster than X86**.
+According to [AWS Graviton2](https://aws.amazon.com/blogs/compute/migrating-aws-lambda-functions-to-arm-based-aws-graviton2-processors/) the Arm Graviton provides 34% better price performance than X86. In some sense, it runs faster 34% compared with X86. So I do a small experiment to check this. AWS CDK and CodeBuild with Arm based instance makes it easy to setup. **So the Graviton does run about 30% faster than X86**. [GitHub](https://github.com/entest-hai/graviton-x86-lambda/blob/master/README.md)
 
 - Runtime Python 3.8
 - Numpy 1.22.1
