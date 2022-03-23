@@ -30,7 +30,7 @@ n = 30 used for testing.
 data = np.random.rand(8192, 8192)
 np.fft.fft(data, axis=0)
 ```
-![multi_thread_fft](https://user-images.githubusercontent.com/20411077/159542223-871f9b60-6cdf-435e-94d7-bdddb7c09c03.png)
+![single_thread_fft](https://user-images.githubusercontent.com/20411077/159596938-37fb8b83-b98b-4b21-9007-b4b4b97fcc82.png)
 
 ### Running time for FFT multi-thread (Lambda memory 10240MB)
 ```
