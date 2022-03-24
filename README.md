@@ -1,4 +1,4 @@
-# Arm Graviton Versus X86 on Fibonaci and FFT Running Time
+# Arm Graviton Versus x86 on Fibonaci and FFT Running Time
 
 ### Summary
 
